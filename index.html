@@ -7,6 +7,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -35,6 +38,7 @@
       border-radius: 30px;
       display: flex;
       flex-direction: column;
+      font-family: 'Overpass', sans-serif;
 
     }.card h1{
       color: white;
@@ -123,6 +127,11 @@
       color: hsl(25, 97%, 53%);
 
 
+    }
+    @media screen and (width:375px) {
+      .card{
+        max-width: 350px;
+      }
     }
 
 
